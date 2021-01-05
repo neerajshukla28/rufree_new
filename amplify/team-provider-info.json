@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-rufree-staging-182504-authRole",
+      "UnauthRoleArn": "arn:aws:iam::580392771945:role/amplify-rufree-staging-182504-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::580392771945:role/amplify-rufree-staging-182504-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-rufree-staging-182504-deployment",
+      "UnauthRoleName": "amplify-rufree-staging-182504-unauthRole",
+      "StackName": "amplify-rufree-staging-182504",
+      "StackId": "arn:aws:cloudformation:us-west-2:580392771945:stack/amplify-rufree-staging-182504/d6417750-4d27-11eb-a375-029530e230c7",
+      "AmplifyAppId": "d26lg9ufr5ser7"
+    },
+    "categories": {
+      "auth": {
+        "RUFree": {}
+      }
+    }
+  }
+}

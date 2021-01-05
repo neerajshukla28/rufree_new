@@ -1,0 +1,25 @@
+type Subject @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  subjectname: String
+  User: User @connection
+}
+
+type Deptt @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  deptit: Int
+  deptname: String
+  Userstodept: [User] @connection(keyName: "byDeptt", fields: ["id"])
+}
+
+type User @model @auth(rules: [{allow: public}]) @key(name: "byDeptt", fields: ["depttID"]) {
+  id: ID!
+  firstname: String
+  midname: String
+  lastname: String
+  deptid: Int
+  subjectid: Int
+  address: String
+  emailid: AWSEmail
+  depttID: ID!
+}
+ 

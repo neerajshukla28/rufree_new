@@ -1,0 +1,5 @@
+{
+  "AppSyncApiName": "RUFree",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false
+}
